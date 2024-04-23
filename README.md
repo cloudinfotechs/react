@@ -49,6 +49,7 @@ function HelloMessage({ name }) {
   return <div>Hello {name}</div>;
 }
 
+# new added
 const root = createRoot(document.getElementById('container'));
 root.render(<HelloMessage name="Taylor" />);
 ```
